@@ -40,3 +40,11 @@ a{
     margin-bottom: 15px;
     width: 600px;
 }
+.contact_list{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 15px;
+}
+.contact_list li a {
+    text-decoration: none;
+}
