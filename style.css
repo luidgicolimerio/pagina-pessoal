@@ -1,6 +1,8 @@
 body{
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 a{
     text-decoration:underline;
@@ -38,7 +40,7 @@ a{
 }
 .post_image{
     margin-bottom: 15px;
-    width: 600px;
+    width: 100%;
 }
 .contact_list{
     list-style-type: none;
