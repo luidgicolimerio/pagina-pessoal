@@ -56,6 +56,9 @@ a{
 .foot{
     background: #459a96;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+
 }
 .foot_title{
     margin:0px;
@@ -67,10 +70,35 @@ a{
 .contact_list{
     list-style-type: none;
     padding: 0;
-    padding-left: 15px;
-    
+    padding-left: 15px; 
+    margin-left: 50px;
 }
+.row{
+    display: flex;
+}
+.row li{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.row-rigth{
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+}
+
 .contact_list li a {
     text-decoration: none;
     color: #FFF;
+}
+.email{
+    list-style-image: url(img/email.png);
+}
+.linkedin{
+    list-style-image: url(img/linkedin.png);
+}
+.instagram{
+    list-style-image: url(img/instagram.png);
+}
+.github{
+    list-style-image: url(img/github.png);
 }
